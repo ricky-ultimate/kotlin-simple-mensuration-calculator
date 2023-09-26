@@ -26,11 +26,11 @@ fun rectangleCalculator(length: Double, breadth: Double){
     print("Rectangle Mensuration:")
     println("\nLength: $length \nBreadth: $breadth")
 
-    print("    1. Perimeter: ")
+    print("\t1. Perimeter: ")
     val perimeter = 2 * (length + breadth)
     println("2($length + $breadth) = $perimeter")
 
-    print("    2. Area: ")
+    print("\t2. Area: ")
     val area  = length * breadth
     println("$length x $breadth = $area ")
 }
@@ -39,11 +39,11 @@ fun parallelogramCalculator(a: Double, b: Double, h: Double){
     print("\nParallelogram Mensuration: ")
     println("\na: $a \nb: $b \nh: $h") //a: length of left or right side | b: length of top or bottom side | h: vertical height of parallelogram
 
-    print("    1. Perimeter: ")
+    print("\t1. Perimeter: ")
     val perimeter = 2 * (a + b)
     println("2 * ($a + $b) = $perimeter")
 
-    print("    2. Area: ")
+    print("\t2. Area: ")
     val area  = b * h
     println("$b x $h = $area ")
 }
@@ -52,7 +52,7 @@ fun triangleCalculator(b: Double, h: Double){
     print("\nTriangle Mensuration: ")
     println("\nb: $b \nh: $h") //b: base length | h: vertical height
 
-    print("    Area: ")
+    print("\tArea: ")
     val area  = 0.5 * b * h
     println("1/2 x $b x $h = $area ")
 }
@@ -61,7 +61,7 @@ fun trapeziumCalculator(a: Double, b: Double, h: Double){
     print("\nTrapezium Mensuration: ")
     println("\nb: $b \nh: $h") //b: base length | h: vertical height
 
-    print("    Area: ")
+    print("\tArea: ")
     val area  = 0.5 * (a + b) * h
     println("1/2 * ($a + $b) * $h = $area ")
 }
@@ -70,11 +70,11 @@ fun squareCalculator(d: Double){
     print("\nSquare Mensuration: ")
     println("\nd: $d") //d: length of side
 
-    print("    1. Perimeter: ")
+    print("\t1. Perimeter: ")
     val perimeter = 4 * d
     println(" 4 x $d = $perimeter")
 
-    print("    2. Area: ")
+    print("\t2. Area: ")
     val area  = d * d
     println("$d x $d = $area ")
 }
