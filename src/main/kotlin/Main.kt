@@ -59,7 +59,7 @@ fun triangleCalculator(b: Double, h: Double){
 
 fun trapeziumCalculator(a: Double, b: Double, h: Double){
     print("\nTrapezium Mensuration: ")
-    println("\nb: $b \nh: $h") //b: base length | h: vertical height
+    println("\na: $a \nb: $b \nh: $h") //b: base length | h: vertical height
 
     print("\tArea: ")
     val area  = 0.5 * (a + b) * h
